@@ -11,7 +11,7 @@ public class TestPrimeFactorization {
 	@Test
 	public void testPrimeFactor() {
 		assertEquals(0, PrimeFactorization.primeFactor(1).length);
-		assertArrayEquals(new int[] {2}, PrimeFactorization.primeFactor(2));
+		assertEquals(new int[] {2}, PrimeFactorization.primeFactor(2));
 	}
 
 }
