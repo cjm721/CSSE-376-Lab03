@@ -10,7 +10,7 @@ public class TestPrimeFactorization {
 
 	@Test
 	public void testPrimeFactor() {
-		assertEquals(0, PrimeFactorization.primeFactor(1).length);
+		assertEquals(new int[] {}, PrimeFactorization.primeFactor(1));
 	}
 
 }
