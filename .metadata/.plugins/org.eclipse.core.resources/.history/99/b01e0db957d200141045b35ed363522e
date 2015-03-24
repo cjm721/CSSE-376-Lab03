@@ -13,7 +13,6 @@ public class TestPrimeFactorization {
 		assertEquals(0, PrimeFactorization.primeFactor(1).length);
 		assertArrayEquals(new int[] {2}, PrimeFactorization.primeFactor(2));
 		assertArrayEquals(new int[] {3} , PrimeFactorization.primeFactor(3));
-		assertArrayEquals(new int[] {2,2} , PrimeFactorization.primeFactor(4));
 	}
 
 }
