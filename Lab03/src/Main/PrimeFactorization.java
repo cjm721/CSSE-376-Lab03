@@ -3,6 +3,7 @@ package Main;
 public class PrimeFactorization {
 	
 	public static int[] primeFactor(int number) {
-		return number == 1? new int[0] : (number == 2? new int[] {2} : new int[] {3});
+		
+		return number == 1? new int[0] : (number == 2? new int[] {2} : (number == 3? new int[] {3}: new int[] {2,2}));
 	}
 }
