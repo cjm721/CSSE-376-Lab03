@@ -4,13 +4,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import Main.PrimeFactorization;
-
 public class TestPrimeFactorization {
 
 	@Test
 	public void testPrimeFactor() {
-		assertEquals(new int[] {}, PrimeFactorization.primeFactor(1));
+		assertEquals(new int[] {}, PrimeFactorization.);
 	}
 
 }

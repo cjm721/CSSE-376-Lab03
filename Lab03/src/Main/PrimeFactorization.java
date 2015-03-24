@@ -1,0 +1,8 @@
+package Main;
+
+public class PrimeFactorization {
+	
+	public static int[] primeFactor(int number) {
+		return null;
+	}
+}
