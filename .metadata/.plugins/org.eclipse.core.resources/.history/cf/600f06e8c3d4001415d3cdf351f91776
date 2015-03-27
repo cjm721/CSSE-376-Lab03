@@ -3,7 +3,6 @@ package Test;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -14,11 +13,11 @@ import Main.OurMath;
 public class TestPrimeGenerator {
 	
 	
-	private int inputNumber;
+	private Integer inputNumber;
 	private int[] expectedResult;
 	
 	
-	public TestPrimeGenerator(Integer inputNumber, 
+	public void PrimeNumberCheckerTest(Integer inputNumber, 
 		      int[] expectedResult) {
 		      this.inputNumber = inputNumber;
 		      this.expectedResult = expectedResult;
@@ -35,7 +34,6 @@ public class TestPrimeGenerator {
 	@Test
 	public void testPrimeGeneterator()
 	{
-		System.out.println("Parameterized Number is : " + inputNumber);
 		assertArrayEquals(expectedResult, OurMath.generatePrimes(inputNumber));
 	}
 

@@ -30,7 +30,7 @@ public class OurMath {
 	}
 	
 	public static int[] generatePrimes(int n) {
-		return null;
+		
 	}
 	
 }
