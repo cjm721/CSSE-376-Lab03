@@ -30,7 +30,9 @@ public class TestPrimeGenerator {
 		return Arrays.asList(new Object[][] {
 		         { 1, new int[] {} },
 		         { 2, new int[] {} },
-		         { 3, new int[] {2} }
+		         { 3, new int[] {2} },
+		         { 4, new int[] {2,3} }
+		         
 		      });
 	};
 	
