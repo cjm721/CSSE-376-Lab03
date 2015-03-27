@@ -30,7 +30,7 @@ public class OurMath {
 	}
 	
 	public static int[] generatePrimes(int n) {
-		return n<3 ? new int[] {}: new int[] {2};
+		return n<3 ? new int[] {}: n == 3 ? new int[] {2} : new int[] {2,3};
 	}
 	
 }
